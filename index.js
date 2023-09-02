@@ -19,6 +19,7 @@ class App extends HTMLElement {
             gender= "${chara.gender}"
             house= "${chara.house}"
             birth= "${chara.yearOfBirth}"
+            alter= "${chara.alternate_names}"
             > </app-chara>`
         );
         const charasJoined = charas.join("");
